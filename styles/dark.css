@@ -10,14 +10,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --page-text-color: #f1b2ce;
-  --page-bg-color: #fff1f7;
+  --page-bg-color: #000028;
   --page-font-family: "IBM Plex mono";
   --page-font-size: 18px;
   --header-title-color: #db00ff;
-  --menu-text-color: #353430;
-  --section-title-color: #353430;
-  --subtitle-text-color: #353430;
-  --subtitle-bg-color: #ff8dcb;
+  --menu-text-color: #ff0070;
+  --section-title-color: #ff0070;
+  --subtitle-text-color: #000028;
+  --subtitle-bg-color: #ff0070;
   --main-font-family: "IBM Plex mono";
   --main-font-weight: 400;
   --heading-font-family: "IBM Plex mono";
