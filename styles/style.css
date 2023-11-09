@@ -31,7 +31,7 @@
   position: relative;
   display: grid;
   align-items: flex-start;
-  block-size: 100vh;
+  min-block-size: 100vh;
   padding: 10px;
   color: var(--menu-text-color, #ff0070);
 }
@@ -368,7 +368,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  block-size: 667px;
+  min-block-size: 667px;
   padding: 10px;
 }
 
