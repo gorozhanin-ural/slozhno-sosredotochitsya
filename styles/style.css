@@ -395,6 +395,7 @@
 @media (1024px <= width) {
   .footer {
     block-size: 768px;
+    padding: 20px;
   }
 
   .footer__title {
