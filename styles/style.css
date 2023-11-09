@@ -207,6 +207,10 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  .page.theme_light .header__title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+
   .header__subtitle {
     justify-self: flex-end;
     inline-size: 491px;
