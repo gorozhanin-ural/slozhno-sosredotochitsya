@@ -152,11 +152,8 @@
     padding: 20px;
   }
 
-  .header::before {
-    margin-block-end: 147px;
-  }
-
   .header__theme-menu {
+    margin-block-start: 147px;
     margin-block-end: 173px;
   }
 
