@@ -260,6 +260,10 @@
   row-gap: 10px;
 }
 
+.section__paragraph-title {
+  font-weight: var(--main-font-weight, 400);
+}
+
 .section__text {
   color: var(--page-text-color, #f1b2ce);
   font-size: var(--page-font-size, 18px);
