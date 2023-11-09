@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -17,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone arrows">
-      <p class="header__record" aria-hidden="true">REC</p>
+      <p class="header__record" aria-hidden="true">rec</p>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -54,10 +55,10 @@
       </div>
     </header>
     <main class="content">
-      <section class="section section_direction_row">
+      <section class="why section">
         <h2 class="section__title">Почему сосредоточиться так сложно</h2>
         <div class="section__content">
-          <div class="section__paragraph">
+          <article class="section__paragraph">
             <h3 class="section__subtitle title-decor">Многозадачность</h3>
             <div class="section__text">
               <p>
@@ -77,8 +78,8 @@
                 ошибаемся и быстро устаём.
               </p>
             </div>
-          </div>
-          <div class="section__paragraph">
+          </article>
+          <article class="section__paragraph">
             <h3 class="section__subtitle title-decor">Дофамин</h3>
             <div class="section__text">
               <p>
@@ -93,13 +94,13 @@
                 получаешь.
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </section>
-      <section class="section">
+      <section class="what section">
         <h2 class="section__title">Что снижает концентрацию внимания?</h2>
-        <div class="section__content section__content_display_grid">
-          <div class="section__paragraph">
+        <div class="section__content what__content">
+          <article class="section__paragraph">
             <h3 class="section__subtitle title-decor">Многозадачность</h3>
             <div class="section__text">
               <p>
@@ -111,8 +112,8 @@
                 может не выдержать, если не давать ей отдохнуть.
               </p>
             </div>
-          </div>
-          <div class="section__paragraph">
+          </article>
+          <article class="section__paragraph">
             <h3 class="section__subtitle title-decor">Еда</h3>
             <div class="section__text">
               <p>
@@ -124,8 +125,8 @@
                 сонливость. И хотим ещё больше быстрых углеводов.
               </p>
             </div>
-          </div>
-          <div class="section__paragraph">
+          </article>
+          <article class="section__paragraph">
             <h3 class="section__subtitle title-decor">Гаджеты</h3>
             <div class="section__text">
               <p>
@@ -139,10 +140,10 @@
                 работе.
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </section>
-      <section class="section section_direction_row">
+      <section class="how section">
         <h2 class="section__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
@@ -151,7 +152,7 @@
           <h3 class="section__subtitle title-decor">
             5 простых (на самом деле не очень) советов
           </h3>
-          <div class="section__paragraph">
+          <article class="section__paragraph">
             <h4 class="section__paragraph-title title-decor">
               Представьте небо и облака
             </h4>
@@ -167,8 +168,8 @@
                 не волноваться о потенциальных проблемах из будущего.
               </p>
             </div>
-          </div>
-          <div class="section__paragraph">
+          </article>
+          <article class="section__paragraph">
             <h4 class="section__paragraph-title title-decor">
               Включите музыку
             </h4>
@@ -180,8 +181,8 @@
                 попробовать включить плейлист в «белым шумом» или нейромузыкой.
               </p>
             </div>
-          </div>
-          <div class="section__paragraph">
+          </article>
+          <article class="section__paragraph">
             <h4 class="section__paragraph-title title-decor">Прогуляйтесь</h4>
             <div class="section__text">
               <p>
@@ -199,8 +200,8 @@
                 вариант.
               </p>
             </div>
-          </div>
-          <div class="section__paragraph">
+          </article>
+          <article class="section__paragraph">
             <h4 class="section__paragraph-title title-decor">Хорошо ешьте</h4>
             <div class="section__text">
               <p>
@@ -211,8 +212,8 @@
                 пшеницы.
               </p>
             </div>
-          </div>
-          <div class="section__paragraph">
+          </article>
+          <article class="section__paragraph">
             <h4 class="section__paragraph-title title-decor">Читайте</h4>
             <div class="section__text">
               <p>
@@ -222,42 +223,26 @@
                 несколько часов и круто тренирует направленное внимание.
               </p>
             </div>
-          </div>
+          </article>
         </div>
       </section>
       <section class="gallery">
         <h3 class="gallery__title section__subtitle title-decor">
           А можно в картинках?
         </h3>
-        <img
-          src="./images/sunset.png"
-          alt="Закат"
-          class="gallery__image gallery__image_type_sunset"
-        />
+        <img src="./images/sunset.png" alt="Закат" class="gallery__image" />
         <img
           src="./images/ice-cream.png"
           alt="Мороженное"
-          class="gallery__image gallery__image_type_icecream"
+          class="gallery__image"
         />
-        <img
-          src="./images/tape.png"
-          alt="Касета"
-          class="gallery__image gallery__image_type_tape"
-        />
-        <img
-          src="./images/books.png"
-          alt="Книги"
-          class="gallery__image gallery__image_type_books"
-        />
-        <img
-          src="./images/street.png"
-          alt="Улица"
-          class="gallery__image gallery__image_type_street"
-        />
+        <img src="./images/tape.png" alt="Касета" class="gallery__image" />
+        <img src="./images/books.png" alt="Книги" class="gallery__image" />
+        <img src="./images/street.png" alt="Улица" class="gallery__image" />
       </section>
     </main>
     <footer class="footer arrows">
-      <p class="footer__title">focus</p>
+      <h2 class="footer__title">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>
