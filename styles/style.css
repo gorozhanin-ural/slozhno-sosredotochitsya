@@ -261,7 +261,7 @@
 }
 
 .section__paragraph-title {
-  font-weight: var(--main-font-weight, 400);
+  font-weight: 400;
 }
 
 .section__text {
