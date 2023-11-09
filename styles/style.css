@@ -374,7 +374,7 @@
 }
 
 .footer__title {
-  color: #db00ff;
+  color: var(--header-title-color, #db00ff);
   font-weight: var(--heading-font-weight, 700);
   font-size: 116px;
   line-height: 0.825;
