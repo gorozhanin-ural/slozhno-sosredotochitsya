@@ -68,7 +68,7 @@
   line-height: 1.38;
   cursor: default;
   inset-block-start: 10px;
-  inset-inline-end: 10px;
+  inset-inline-end: 20px;
 }
 
 .header__record::after {
@@ -134,7 +134,7 @@
 
 .header__title {
   margin-block-end: 55px;
-  color: #db00ff;
+  color: var(--header-title-color, #db00ff);
   font-weight: var(--heading-font-weight, 700);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.825;
@@ -162,7 +162,7 @@
 
   .header__record {
     inset-block-start: 20px;
-    inset-inline-end: 10px;
+    inset-inline-end: 30px;
   }
 
   .header__title {
@@ -183,11 +183,6 @@
     padding: 20px;
   }
 
-  .header__record {
-    inset-block-start: 20px;
-    inset-inline-end: 10px;
-  }
-
   .header::before {
     margin-block-end: 274px;
   }
@@ -196,7 +191,13 @@
     grid-column: 1;
     grid-row: 1;
     justify-self: center;
+    margin-block-start: 0;
     margin-block-end: 0;
+  }
+
+  .header__record {
+    inset-block-start: 20px;
+    inset-inline-end: 30px;
   }
 
   .header__theme-menu-list {
