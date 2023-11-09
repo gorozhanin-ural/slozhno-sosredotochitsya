@@ -380,7 +380,7 @@
 
 @media (768px <= width < 1024px) {
   .footer {
-    block-size: 1004px;
+    block-size: 1024px;
     padding: 20px;
   }
 
