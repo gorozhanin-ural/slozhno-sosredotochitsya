@@ -31,6 +31,14 @@
   display: none;
 }
 
+.page.theme_light .header__title {
+  text-shadow: 4px 4px 0 #ff0070;
+}
+
+.page.theme_light .footer__title {
+  text-shadow: 4px 4px 0 #ff0070;
+}
+
 @media (prefers-color-scheme: light) {
   .page {
     --page-text-color: #353430;
@@ -53,5 +61,15 @@
 
   .header__record {
     display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) and (1024px <= width) {
+  .header__title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+
+  .footer__title {
+    text-shadow: 4px 4px 0 #ff0070;
   }
 }
