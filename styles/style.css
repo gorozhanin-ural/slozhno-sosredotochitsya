@@ -291,6 +291,11 @@
   .section_direction_row {
     flex-direction: row;
   }
+
+  .section__title {
+    inline-size: 236px;
+    min-inline-size: 236px;
+  }
 }
 
 @media (1024px <= width) {
