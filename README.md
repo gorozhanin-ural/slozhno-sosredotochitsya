@@ -13,4 +13,4 @@
 
 ---
 
-[Demo](https://slozhno-sosredotochitsya.nothingisreal.ru/)https://slozhno-sosredotochitsya.nothingisreal.ru/)
+[Demo](https://slozhno-sosredotochitsya.nothingisreal.ru/)
